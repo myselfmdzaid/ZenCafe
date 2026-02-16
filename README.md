@@ -1,16 +1,63 @@
-# React + Vite
+# Zen Cafe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Zen Cafe is a small React app scaffolded with Vite. It demonstrates a minimal, modern frontend setup using React 19, Vite, and Framer Motion for animations.
 
-Currently, two official plugins are available:
+**Features:**
+- Lightweight Vite + React setup with fast HMR
+- Framer Motion for UI animations
+- ESLint configuration for consistent code style
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Tech stack:**
+- React 19
+- Vite
+- Framer Motion
+- ESLint
 
-## React Compiler
+## Quick Start
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Prerequisites: Node.js (16+) and npm.
 
-## Expanding the ESLint configuration
+1. Install dependencies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+```
+
+2. Start the dev server
+
+```bash
+npm run dev
+```
+
+3. Build for production
+
+```bash
+npm run build
+```
+
+4. Preview the production build locally
+
+```bash
+npm run preview
+```
+
+5. Lint the project
+
+```bash
+npm run lint
+```
+
+## Project structure (important files)
+
+- [src/main.jsx](src/main.jsx) — application entry
+- [src/ZenCafeRoyal.jsx](src/ZenCafeRoyal.jsx) — main app component
+- vite.config.js — Vite configuration
+
+## Notes for contributors
+
+- Follow the existing ESLint rules. Run `npm run lint` before creating PRs.
+- Keep components small and focused; use Framer Motion for animations when appropriate.
+
+## License
+
+This project has no license specified. Add one if you intend to share or publish the code.
