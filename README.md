@@ -1,5 +1,5 @@
 # Zen Cafe
-zen-cafe-byarz.vercel.app
+https://zen-cafe-byarz.vercel.app/
 
 Zen Cafe is a small React app scaffolded with Vite. It demonstrates a minimal, modern frontend setup using React 19, Vite, and Framer Motion for animations.
 
